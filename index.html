@@ -1,52 +1,96 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hemant Bangari-Web Developer</title>
-      <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <div class="container">
-      <div class="slidebar">
-          
-          <nav>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="intro.html">My Intro</a></li>
-                  <li><a href="service.html">Service</a></li>
-                  <li><a href="blog.html">BLog</a></li>
-                  <li><a href="contact.html">Contact Me</a></li>
-              </ul>
+<!DOCTYPE html>
+<html lang="en">
 
-          </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemant Bangari-Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-      </div>
-      <div class="main">
-          <div class="infocontainer">
-              <div class="devinfo">
-                  <div class="hello">Hi I am </div>
-                  <div class="name">Hemant Bangari</div>
-                  <div class="about">Developer</div>
-                  <div class="aboutmore">I am new Developer , complete my graduation in BSC IT , curently doing MCA </div>
-                  <div class="button">
-                    <a href="cv.txt"><button>download CV</button></a>
-                    <a href="contact.html"><button>Contact Me</button></a>
-    
-                  </div>
-                  
+</head>
 
-              </div>
-              
+<body>
+    <div class="container">
+        <div class="slidebar sidebargo">
 
-              <div class="devpic">
-                  <img src="remove.png" alt="remove">
-              </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="services.html">Service</a></li>
+                    <li><a href="blog.html">BLog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li> <a href="work.html">My Work</a></li>
+                </ul>
 
-          </div>
-      </div>
+            </nav>
+
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="63px">
+                <img class="cross" src="cross.png" alt="" width="43px">
+            </div>
+            <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi I am </div>
+                    <div class="name">Hemant Bangari</div>
+                    <div class="about"><span class="typing">Developer</span></div>
+                    <div class="aboutmore">I am new Developer , complete my graduation in BSC IT , curently doing MCA
+                    </div>
+                    <div class="button">
+                        <a href="hemantBangari.pdf"><button id="mybutton">download CV</button></a>
+                        <a href="contact.html"><button onclick="myOnClickFn()">Contact Me</button></a>
+
+                    </div>
+
+
+                    <div class="wrapper">
+                        
+                        <div class="button">
+                           <div class="icon">
+                              <i class="fab fa-linkedin"></i>
+                           </div>
+                           <span><a href="https://www.linkedin.com/in/hemant-bangari-5712a6167/" class="linkedin" target="blank style=" style='color: rgb(255, 255, 255); text-decoration: none;'>Linkedin</a></span>
+                        </div>
+                        <div class="button">
+                           <div class="icon">
+                              <i class="fab fa-instagram"></i>
+                           </div>
+                           <span><a class="github" href="https://www.instagram.com/dkira_l/" target="blank" style="color: rgb(255, 255, 255); text-decoration: none;">Instagram</a></span>
+                        </div>
+                        <div class="button">
+                           <div class="icon">
+                              <i class="fab fa-github"></i>
+                           </div>
+                           <span ><a class="github" href="https://github.com/darkkira" target="blank" style="color: rgb(255, 255, 255); text-decoration: none;">Github</a></span>
+                        </div>
+                        
+                     </div>
+
+                </div>
+                
+
+
+                <div class="devpic">
+                    <img src="remove.png" alt="remove">
+                </div>
+
+            </div>
+        </div>
     </div>
-      
-  </body>
-  </html>
+    
+    <script src="index.js"></script>
+    <footer class="foter">
+        <p>Copyright©2022 All Right Reserved<br>
+            <a href="mailto:hemant2307sb@gmail.com">hemant2307sb@gmail.com</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
