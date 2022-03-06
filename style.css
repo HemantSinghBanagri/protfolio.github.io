@@ -145,12 +145,12 @@
 }
 .form-check-label  {
     text-align: center;
-    width: 600px;
+    width: 50%;
     margin: 3px 0;
 
 }
 .primary{
-    margin: 0px 278px;
+    margin: 0px 20%;
     border-radius: 20px;
     background-color: dodgerblue;
     color: white;
@@ -363,3 +363,4 @@ color: crimson;
 .para{
     font-size: 30px;
 }
+
