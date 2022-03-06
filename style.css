@@ -297,12 +297,12 @@ color: crimson;
 
 }
 #cardGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   
+   
   }
 .cardContainer {
     margin: 70px;
-    display: flex;
+   
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
