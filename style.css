@@ -6,6 +6,10 @@
     padding: 30;
 
 }
+.main wall{
+     height:100% ;
+     width: 100%;
+}
 .slidebar {
    
     background-color:crimson;
